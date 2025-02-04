@@ -1,0 +1,181 @@
+{
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Nutrition Knowledge",
+        "type": "nutrition",
+        "questions": [
+          {
+            "question": "What is the recommended daily water intake for adults?",
+            "options": ["2-3 liters", "1 liter", "5 liters", "0.5 liters"],
+            "correct": 0
+          },
+          {
+            "question": "Which of these is not a macronutrient?",
+            "options": ["Protein", "Vitamins", "Carbohydrates", "Fats"],
+            "correct": 1
+          },
+          {
+            "question": "Which vitamin is produced when skin is exposed to sunlight?",
+            "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin E"],
+            "correct": 2
+          },
+          {
+            "question": "Which food group should form the largest portion of your diet?",
+            "options": ["Proteins", "Fruits and Vegetables", "Grains", "Dairy"],
+            "correct": 1
+          },
+          {
+            "question": "What is the main function of fiber in diet?",
+            "options": ["Energy source", "Digestive health", "Muscle building", "Brain function"],
+            "correct": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cardiovascular Health",
+        "type": "cardio",
+        "questions": [
+          {
+            "question": "What is a normal resting heart rate for adults?",
+            "options": ["40-50 bpm", "60-100 bpm", "100-120 bpm", "120-140 bpm"],
+            "correct": 1
+          },
+          {
+            "question": "Which of these is not a risk factor for heart disease?",
+            "options": ["Smoking", "High blood pressure", "Regular exercise", "Obesity"],
+            "correct": 2
+          },
+          {
+            "question": "What does LDL stand for in cholesterol tests?",
+            "options": [
+              "Low Density Lipoprotein",
+              "Large Density Lipids",
+              "Liver Derived Lipids",
+              "Light Density Levels"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which type of exercise is best for improving cardiovascular health?",
+            "options": ["Weightlifting", "Yoga", "Aerobic exercise", "Stretching"],
+            "correct": 2
+          },
+          {
+            "question": "What is considered a healthy blood pressure reading?",
+            "options": ["120/80 mmHg", "140/90 mmHg", "160/100 mmHg", "100/60 mmHg"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Mental Health Awareness",
+        "type": "mental_health",
+        "questions": [
+          {
+            "question": "Which of these is not a common symptom of depression?",
+            "options": [
+              "Persistent sadness",
+              "Loss of interest in activities",
+              "Increased energy",
+              "Changes in sleep patterns"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the most common mental health disorder worldwide?",
+            "options": ["Depression", "Anxiety", "Bipolar disorder", "Schizophrenia"],
+            "correct": 1
+          },
+          {
+            "question": "Which practice has been shown to improve mental well-being?",
+            "options": ["Isolation", "Mindfulness meditation", "Excessive alcohol consumption", "Overworking"],
+            "correct": 1
+          },
+          {
+            "question": "What is cognitive behavioral therapy primarily used to treat?",
+            "options": ["Physical injuries", "Nutritional deficiencies", "Mental health disorders", "Viral infections"],
+            "correct": 2
+          },
+          {
+            "question": "How much sleep is generally recommended for adults per night?",
+            "options": ["4-5 hours", "6-8 hours", "10-12 hours", "14-16 hours"],
+            "correct": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Physical Fitness",
+        "type": "fitness",
+        "questions": [
+          {
+            "question": "How often should adults engage in moderate-intensity aerobic activity?",
+            "options": ["At least 150 minutes per week", "30 minutes per month", "1 hour per day", "10 minutes per week"],
+            "correct": 0
+          },
+          {
+            "question": "Which of these is not a component of physical fitness?",
+            "options": ["Cardiovascular endurance", "Muscular strength", "Flexibility", "Intelligence"],
+            "correct": 3
+          },
+          {
+            "question": "What is the primary benefit of strength training?",
+            "options": [
+              "Improved flexibility",
+              "Increased muscle mass and strength",
+              "Better eyesight",
+              "Enhanced taste buds"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which exercise is best for improving balance?",
+            "options": ["Sprinting", "Weightlifting", "Yoga", "Swimming"],
+            "correct": 2
+          },
+          {
+            "question": "What is the recommended cool-down time after intense exercise?",
+            "options": ["5-10 minutes", "30 seconds", "1 hour", "24 hours"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Preventive Healthcare",
+        "type": "prevention",
+        "questions": [
+          {
+            "question": "How often should adults get a routine health check-up?",
+            "options": ["Every month", "Every 6 months", "Annually", "Every 5 years"],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is not a recommended preventive measure?",
+            "options": ["Regular exercise", "Balanced diet", "Vaccination", "Smoking"],
+            "correct": 3
+          },
+          {
+            "question": "At what age should women typically start getting mammograms?",
+            "options": ["20", "30", "40", "50"],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is a key component of dental hygiene?",
+            "options": ["Brushing once a week", "Flossing daily", "Eating lots of sugar", "Avoiding dentists"],
+            "correct": 1
+          },
+          {
+            "question": "What is the primary purpose of a flu shot?",
+            "options": ["Cure the flu", "Prevent the flu", "Treat allergies", "Boost energy"],
+            "correct": 1
+          }
+        ]
+      }
+    ]
+  }
+  
+  

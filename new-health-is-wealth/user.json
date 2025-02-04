@@ -1,0 +1,545 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 35,
+        "bloodType": "A+",
+        "nextAppointment": "2025-02-05",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 1,
+            "doctorName": "Dr. Sarah Smith",
+            "specialty": "Cardiologist",
+            "date": "2025-02-05",
+            "time": "10:00 AM",
+            "status": "upcoming",
+            "location": "Heart Care Center"
+          },
+          {
+            "id": 2,
+            "doctorName": "Dr. Michael Chen",
+            "specialty": "General Physician",
+            "date": "2025-02-03",
+            "time": "2:30 PM",
+            "status": "completed",
+            "location": "Medical Plaza"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Heart Health Quiz", "score": 95, "credits": 20, "date": "2025-01-28" },
+            { "topic": "Nutrition Knowledge", "score": 88, "credits": 15, "date": "2025-01-25" },
+            { "topic": "Mental Health Awareness", "score": 92, "credits": 18, "date": "2025-01-20" }
+          ],
+          "totalCredits": 53
+        }
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 28,
+        "bloodType": "O-",
+        "nextAppointment": "2025-03-15",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 3,
+            "doctorName": "Dr. Emily Johnson",
+            "specialty": "Dermatologist",
+            "date": "2025-03-15",
+            "time": "11:30 AM",
+            "status": "upcoming",
+            "location": "Skin Care Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Skin Care Basics", "score": 98, "credits": 22, "date": "2025-02-10" },
+            { "topic": "Sun Protection", "score": 90, "credits": 16, "date": "2025-02-05" }
+          ],
+          "totalCredits": 38
+        }
+      },
+      {
+        "id": 3,
+        "name": "Robert Johnson",
+        "age": 52,
+        "bloodType": "B+",
+        "nextAppointment": "2025-02-20",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 4,
+            "doctorName": "Dr. Lisa Wong",
+            "specialty": "Orthopedist",
+            "date": "2025-02-20",
+            "time": "9:15 AM",
+            "status": "upcoming",
+            "location": "Bone & Joint Center"
+          },
+          {
+            "id": 5,
+            "doctorName": "Dr. James Brown",
+            "specialty": "Physical Therapist",
+            "date": "2025-02-22",
+            "time": "3:00 PM",
+            "status": "upcoming",
+            "location": "Rehab Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Joint Health", "score": 85, "credits": 14, "date": "2025-01-30" },
+            { "topic": "Exercise for Seniors", "score": 92, "credits": 18, "date": "2025-01-28" }
+          ],
+          "totalCredits": 32
+        }
+      },
+      {
+        "id": 4,
+        "name": "Maria Garcia",
+        "age": 41,
+        "bloodType": "AB+",
+        "nextAppointment": "2025-03-01",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 6,
+            "doctorName": "Dr. David Lee",
+            "specialty": "Endocrinologist",
+            "date": "2025-03-01",
+            "time": "1:45 PM",
+            "status": "upcoming",
+            "location": "Diabetes Care Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Diabetes Management", "score": 97, "credits": 21, "date": "2025-02-15" },
+            { "topic": "Healthy Eating Habits", "score": 89, "credits": 15, "date": "2025-02-10" }
+          ],
+          "totalCredits": 36
+        }
+      },
+      {
+        "id": 5,
+        "name": "William Taylor",
+        "age": 63,
+        "bloodType": "A-",
+        "nextAppointment": "2025-02-28",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 7,
+            "doctorName": "Dr. Olivia Martinez",
+            "specialty": "Ophthalmologist",
+            "date": "2025-02-28",
+            "time": "10:30 AM",
+            "status": "upcoming",
+            "location": "Vision Care Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Eye Health", "score": 88, "credits": 16, "date": "2025-02-20" },
+            { "topic": "Age-Related Vision Changes", "score": 93, "credits": 19, "date": "2025-02-18" }
+          ],
+          "totalCredits": 35
+        }
+      },
+      {
+        "id": 6,
+        "name": "Sophia Lee",
+        "age": 32,
+        "bloodType": "B-",
+        "nextAppointment": "2025-03-10",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 8,
+            "doctorName": "Dr. Daniel Kim",
+            "specialty": "Allergist",
+            "date": "2025-03-10",
+            "time": "2:00 PM",
+            "status": "upcoming",
+            "location": "Allergy & Asthma Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Allergy Triggers", "score": 96, "credits": 20, "date": "2025-02-25" },
+            { "topic": "Asthma Management", "score": 91, "credits": 17, "date": "2025-02-22" }
+          ],
+          "totalCredits": 37
+        }
+      },
+      {
+        "id": 7,
+        "name": "Michael Brown",
+        "age": 47,
+        "bloodType": "O+",
+        "nextAppointment": "2025-03-05",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 9,
+            "doctorName": "Dr. Rachel Green",
+            "specialty": "Gastroenterologist",
+            "date": "2025-03-05",
+            "time": "11:00 AM",
+            "status": "upcoming",
+            "location": "Digestive Health Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Digestive Health", "score": 87, "credits": 15, "date": "2025-02-28" },
+            { "topic": "Nutrition for Gut Health", "score": 94, "credits": 19, "date": "2025-02-26" }
+          ],
+          "totalCredits": 34
+        }
+      },
+      {
+        "id": 8,
+        "name": "Emma Wilson",
+        "age": 29,
+        "bloodType": "A+",
+        "nextAppointment": "2025-03-20",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 10,
+            "doctorName": "Dr. Thomas Anderson",
+            "specialty": "Obstetrician",
+            "date": "2025-03-20",
+            "time": "9:45 AM",
+            "status": "upcoming",
+            "location": "Women's Health Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Prenatal Care", "score": 99, "credits": 23, "date": "2025-03-01" },
+            { "topic": "Pregnancy Nutrition", "score": 95, "credits": 20, "date": "2025-02-27" }
+          ],
+          "totalCredits": 43
+        }
+      },
+      {
+        "id": 9,
+        "name": "David Chen",
+        "age": 55,
+        "bloodType": "AB-",
+        "nextAppointment": "2025-03-08",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 11,
+            "doctorName": "Dr. Samantha Lee",
+            "specialty": "Neurologist",
+            "date": "2025-03-08",
+            "time": "1:30 PM",
+            "status": "upcoming",
+            "location": "Neurology Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Brain Health", "score": 92, "credits": 18, "date": "2025-03-03" },
+            { "topic": "Stress Management", "score": 88, "credits": 16, "date": "2025-02-29" }
+          ],
+          "totalCredits": 34
+        }
+      },
+      {
+        "id": 10,
+        "name": "Olivia Martinez",
+        "age": 38,
+        "bloodType": "O-",
+        "nextAppointment": "2025-03-12",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 12,
+            "doctorName": "Dr. Christopher Wang",
+            "specialty": "Rheumatologist",
+            "date": "2025-03-12",
+            "time": "10:15 AM",
+            "status": "upcoming",
+            "location": "Arthritis & Rheumatology Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Joint Pain Management", "score": 93, "credits": 19, "date": "2025-03-05" },
+            { "topic": "Autoimmune Disorders", "score": 90, "credits": 17, "date": "2025-03-02" }
+          ],
+          "totalCredits": 36
+        }
+      },
+      {
+        "id": 11,
+        "name": "James Wilson",
+        "age": 70,
+        "bloodType": "A+",
+        "nextAppointment": "2025-02-25",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 13,
+            "doctorName": "Dr. Elizabeth Taylor",
+            "specialty": "Geriatrician",
+            "date": "2025-02-25",
+            "time": "11:45 AM",
+            "status": "upcoming",
+            "location": "Senior Care Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Healthy Aging", "score": 96, "credits": 21, "date": "2025-02-20" },
+            { "topic": "Fall Prevention", "score": 94, "credits": 19, "date": "2025-02-18" }
+          ],
+          "totalCredits": 40
+        }
+      },
+      {
+        "id": 12,
+        "name": "Ava Thompson",
+        "age": 26,
+        "bloodType": "B+",
+        "nextAppointment": "2025-03-18",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 14,
+            "doctorName": "Dr. Robert Johnson",
+            "specialty": "Dentist",
+            "date": "2025-03-18",
+            "time": "2:45 PM",
+            "status": "upcoming",
+            "location": "Smile Dental Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Oral Hygiene", "score": 97, "credits": 21, "date": "2025-03-10" },
+            { "topic": "Dental Care Basics", "score": 95, "credits": 20, "date": "2025-03-08" }
+          ],
+          "totalCredits": 41
+        }
+      },
+      {
+        "id": 13,
+        "name": "Ethan Davis",
+        "age": 43,
+        "bloodType": "AB+",
+        "nextAppointment": "2025-03-22",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 15,
+            "doctorName": "Dr. Sophia Rodriguez",
+            "specialty": "Pulmonologist",
+            "date": "2025-03-22",
+            "time": "9:30 AM",
+            "status": "upcoming",
+            "location": "Respiratory Care Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Lung Health", "score": 89, "credits": 16, "date": "2025-03-15" },
+            { "topic": "Breathing Exercises", "score": 92, "credits": 18, "date": "2025-03-12" }
+          ],
+          "totalCredits": 34
+        }
+      },
+      {
+        "id": 14,
+        "name": "Isabella Kim",
+        "age": 31,
+        "bloodType": "O+",
+        "nextAppointment": "2025-03-25",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 16,
+            "doctorName": "Dr. William Brown",
+            "specialty": "Nutritionist",
+            "date": "2025-03-25",
+            "time": "1:15 PM",
+            "status": "upcoming",
+            "location": "Nutrition & Wellness Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Balanced Diet", "score": 98, "credits": 22, "date": "2025-03-18" },
+            { "topic": "Meal Planning", "score": 96, "credits": 21, "date": "2025-03-16" }
+          ],
+          "totalCredits": 43
+        }
+      },
+      {
+        "id": 15,
+        "name": "Noah Garcia",
+        "age": 59,
+        "bloodType": "A-",
+        "nextAppointment": "2025-03-28",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 17,
+            "doctorName": "Dr. Olivia Chen",
+            "specialty": "Urologist",
+            "date": "2025-03-28",
+            "time": "10:45 AM",
+            "status": "upcoming",
+            "location": "Urology Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Urinary Health", "score": 91, "credits": 17, "date": "2025-03-20" },
+            { "topic": "Prostate Health", "score": 88, "credits": 15, "date": "2025-03-18" }
+          ],
+          "totalCredits": 32
+        }
+      },
+      {
+        "id": 16,
+        "name": "Mia Johnson",
+        "age": 36,
+        "bloodType": "B-",
+        "nextAppointment": "2025-04-02",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 18,
+            "doctorName": "Dr. Alexander Lee",
+            "specialty": "ENT Specialist",
+            "date": "2025-04-02",
+            "time": "3:30 PM",
+            "status": "upcoming",
+            "location": "Ear, Nose & Throat Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Hearing Health", "score": 94, "credits": 19, "date": "2025-03-25" },
+            { "topic": "Sinus Care", "score": 92, "credits": 18, "date": "2025-03-22" }
+          ],
+          "totalCredits": 37
+        }
+      },
+      {
+        "id": 17,
+        "name": "Liam Anderson",
+        "age": 50,
+        "bloodType": "O-",
+        "nextAppointment": "2025-04-05",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 19,
+            "doctorName": "Dr. Sophia Patel",
+            "specialty": "Oncologist",
+            "date": "2025-04-05",
+            "time": "11:15 AM",
+            "status": "upcoming",
+            "location": "Cancer Treatment Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Cancer Prevention", "score": 97, "credits": 21, "date": "2025-03-30" },
+            { "topic": "Healthy Lifestyle Choices", "score": 95, "credits": 20, "date": "2025-03-28" }
+          ],
+          "totalCredits": 41
+        }
+      },
+      {
+        "id": 18,
+        "name": "Charlotte Wong",
+        "age": 33,
+        "bloodType": "AB-",
+        "nextAppointment": "2025-04-08",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 20,
+            "doctorName": "Dr. Benjamin Taylor",
+            "specialty": "Psychiatrist",
+            "date": "2025-04-08",
+            "time": "2:00 PM",
+            "status": "upcoming",
+            "location": "Mental Health Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Mental Wellness", "score": 96, "credits": 21, "date": "2025-04-01" },
+            { "topic": "Stress Reduction Techniques", "score": 93, "credits": 19, "date": "2025-03-29" }
+          ],
+          "totalCredits": 40
+        }
+      },
+      {
+        "id": 19,
+        "name": "Lucas Martinez",
+        "age": 45,
+        "bloodType": "A+",
+        "nextAppointment": "2025-04-12",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 21,
+            "doctorName": "Dr. Emma Wilson",
+            "specialty": "Dermatologist",
+            "date": "2025-04-12",
+            "time": "9:00 AM",
+            "status": "upcoming",
+            "location": "Skin Health Center"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Skin Cancer Awareness", "score": 95, "credits": 20, "date": "2025-04-05" },
+            { "topic": "Acne Management", "score": 89, "credits": 16, "date": "2025-04-03" }
+          ],
+          "totalCredits": 36
+        }
+      },
+      {
+        "id": 20,
+        "name": "Zoe Thompson",
+        "age": 27,
+        "bloodType": "B+",
+        "nextAppointment": "2025-04-15",
+        "profileImage": "/api/placeholder/100/100",
+        "appointments": [
+          {
+            "id": 22,
+            "doctorName": "Dr. Nathan Chen",
+            "specialty": "Physiotherapist",
+            "date": "2025-04-15",
+            "time": "2:30 PM",
+            "status": "upcoming",
+            "location": "Physical Therapy Clinic"
+          }
+        ],
+        "quizzes": {
+          "completed": [
+            { "topic": "Injury Prevention", "score": 98, "credits": 22, "date": "2025-04-08" },
+            { "topic": "Stretching Techniques", "score": 96, "credits": 21, "date": "2025-04-06" }
+          ],
+          "totalCredits": 43
+        }
+      }
+    ]
+  }
+  
+  

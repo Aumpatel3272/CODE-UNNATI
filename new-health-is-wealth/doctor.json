@@ -1,0 +1,355 @@
+{
+  "doctors": [
+    {
+      "id": "DOC001",
+      "name": "Dr. Sarah Johnson",
+      "photo": "sarah_johnson.jpg",
+      "specialty": "Cardiologist",
+      "hospital": "Heart Care Medical Center",
+      "location": "New York, NY",
+      "experience": 15,
+      "rating": 4.8,
+      "appointmentCharge": 200,
+      "education": [
+        "MD - Johns Hopkins University",
+        "Cardiology Fellowship - Mayo Clinic"
+      ],
+      "about": "Dr. Johnson is a board-certified cardiologist with expertise in preventive cardiology and heart failure management.",
+      "availableSlots": {
+        "Mon": ["09:00", "10:00", "14:00", "15:00"],
+        "Wed": ["11:00", "13:00", "16:00"],
+        "Fri": ["09:00", "10:00", "11:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC002",
+      "name": "Dr. Michael Chen",
+      "photo": "michael_chen.jpg",
+      "specialty": "Orthopedic",
+      "hospital": "Advanced Orthopedic Institute",
+      "location": "San Francisco, CA",
+      "experience": 12,
+      "rating": 4.9,
+      "appointmentCharge": 180,
+      "education": [
+        "MD - Stanford University",
+        "Orthopedic Surgery Residency - UCSF"
+      ],
+      "about": "Dr. Chen specializes in sports medicine and minimally invasive joint replacement surgery.",
+      "availableSlots": {
+        "Tue": ["09:00", "10:00", "11:00", "14:00"],
+        "Thu": ["10:00", "11:00", "15:00", "16:00"],
+        "Fri": ["09:00", "10:00", "14:00", "15:00"]
+      }
+    },
+    {
+      "id": "DOC003",
+      "name": "Dr. Emily Rodriguez",
+      "photo": "emily_rodriguez.jpg",
+      "specialty": "Pediatrician",
+      "hospital": "Children's Wellness Center",
+      "location": "Miami, FL",
+      "experience": 8,
+      "rating": 4.7,
+      "appointmentCharge": 150,
+      "education": [
+        "MD - University of Miami",
+        "Pediatric Residency - Boston Children's Hospital"
+      ],
+      "about": "Dr. Rodriguez is passionate about child wellness and developmental pediatrics.",
+      "availableSlots": {
+        "Mon": ["10:00", "11:00", "14:00", "15:00"],
+        "Wed": ["09:00", "10:00", "14:00", "16:00"],
+        "Thu": ["11:00", "13:00", "14:00", "15:00"]
+      }
+    },
+    {
+      "id": "DOC004",
+      "name": "Dr. James Wilson",
+      "photo": "james_wilson.jpg",
+      "specialty": "Neurologist",
+      "hospital": "Neurological Institute",
+      "location": "Boston, MA",
+      "experience": 20,
+      "rating": 4.9,
+      "appointmentCharge": 250,
+      "education": [
+        "MD - Harvard Medical School",
+        "Neurology Fellowship - Massachusetts General Hospital"
+      ],
+      "about": "Dr. Wilson is a leading expert in treating complex neurological disorders and stroke management.",
+      "availableSlots": {
+        "Tue": ["09:00", "10:00", "14:00", "15:00"],
+        "Thu": ["11:00", "13:00", "14:00"],
+        "Fri": ["09:00", "10:00", "11:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC005",
+      "name": "Dr. Lisa Patel",
+      "photo": "lisa_patel.jpg",
+      "specialty": "Dermatologist",
+      "hospital": "Skin Care Specialists",
+      "location": "Los Angeles, CA",
+      "experience": 10,
+      "rating": 4.8,
+      "appointmentCharge": 190,
+      "education": ["MD - UCLA", "Dermatology Residency - NYU"],
+      "about": "Dr. Patel specializes in cosmetic dermatology and skin cancer treatment.",
+      "availableSlots": {
+        "Mon": ["09:00", "10:00", "11:00", "14:00"],
+        "Wed": ["10:00", "11:00", "14:00", "15:00"],
+        "Fri": ["11:00", "13:00", "14:00", "16:00"]
+      }
+    },
+    {
+      "id": "DOC006",
+      "name": "Dr. Robert Kim",
+      "photo": "robert_kim.jpg",
+      "specialty": "Ophthalmology",
+      "hospital": "Vision Care Center",
+      "location": "Chicago, IL",
+      "experience": 14,
+      "rating": 4.7,
+      "appointmentCharge": 170,
+      "education": [
+        "MD - University of Chicago",
+        "Ophthalmology Residency - Wills Eye Hospital"
+      ],
+      "about": "Dr. Kim is expert in laser eye surgery and treatment of retinal diseases.",
+      "availableSlots": {
+        "Tue": ["10:00", "11:00", "14:00", "15:00"],
+        "Thu": ["09:00", "10:00", "14:00", "16:00"],
+        "Sat": ["09:00", "10:00", "11:00"]
+      }
+    },
+    {
+      "id": "DOC007",
+      "name": "Dr. Maria Santos",
+      "photo": "maria_santos.jpg",
+      "specialty": "General Physician",
+      "hospital": "Women's Health Center",
+      "location": "Houston, TX",
+      "experience": 16,
+      "rating": 4.9,
+      "appointmentCharge": 180,
+      "education": [
+        "MD - Baylor College of Medicine",
+        "OB/GYN Residency - Texas Medical Center"
+      ],
+      "about": "Dr. Santos specializes in high-risk pregnancies and minimally invasive gynecologic surgery.",
+      "availableSlots": {
+        "Mon": ["09:00", "10:00", "14:00", "15:00"],
+        "Wed": ["11:00", "13:00", "14:00"],
+        "Fri": ["09:00", "10:00", "11:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC008",
+      "name": "Dr. David Thompson",
+      "photo": "david_thompson.jpg",
+      "specialty": "Family Medicine",
+      "hospital": "Mental Wellness Institute",
+      "location": "Seattle, WA",
+      "experience": 11,
+      "rating": 4.8,
+      "appointmentCharge": 160,
+      "education": [
+        "MD - University of Washington",
+        "Psychiatry Residency - Columbia University"
+      ],
+      "about": "Dr. Thompson focuses on mood disorders and anxiety treatment using innovative therapeutic approaches.",
+      "availableSlots": {
+        "Tue": ["09:00", "10:00", "11:00", "14:00"],
+        "Thu": ["10:00", "11:00", "14:00", "15:00"],
+        "Fri": ["09:00", "10:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC009",
+      "name": "Dr. Amanda Foster",
+      "photo": "amanda_foster.jpg",
+      "specialty": "General Physician",
+      "hospital": "Diabetes & Hormone Center",
+      "location": "Denver, CO",
+      "experience": 9,
+      "rating": 4.7,
+      "appointmentCharge": 170,
+      "education": [
+        "MD - University of Colorado",
+        "Endocrinology Fellowship - Yale"
+      ],
+      "about": "Dr. Foster specializes in diabetes management and thyroid disorders.",
+      "availableSlots": {
+        "Mon": ["10:00", "11:00", "14:00", "15:00"],
+        "Wed": ["09:00", "10:00", "14:00", "16:00"],
+        "Thu": ["11:00", "13:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC010",
+      "name": "Dr. Thomas Wright",
+      "photo": "thomas_wright.jpg",
+      "specialty": "Cardiologist",
+      "hospital": "Respiratory Care Center",
+      "location": "Atlanta, GA",
+      "experience": 13,
+      "rating": 4.8,
+      "appointmentCharge": 190,
+      "education": [
+        "MD - Emory University",
+        "Pulmonology Fellowship - Cleveland Clinic"
+      ],
+      "about": "Dr. Wright is experienced in treating complex respiratory conditions and sleep disorders.",
+      "availableSlots": {
+        "Tue": ["09:00", "10:00", "14:00", "15:00"],
+        "Thu": ["11:00", "13:00", "16:00"],
+        "Sat": ["09:00", "10:00", "11:00"]
+      }
+    },
+    {
+      "id": "DOC011",
+      "name": "Dr. Rachel Goldman",
+      "photo": "rachel_goldman.jpg",
+      "specialty": "Neurologist",
+      "hospital": "Digestive Health Institute",
+      "location": "Philadelphia, PA",
+      "experience": 17,
+      "rating": 4.9,
+      "appointmentCharge": 200,
+      "education": [
+        "MD - University of Pennsylvania",
+        "Gastroenterology Fellowship - Mount Sinai"
+      ],
+      "about": "Dr. Goldman specializes in inflammatory bowel disease and advanced endoscopy.",
+      "availableSlots": {
+        "Mon": ["09:00", "10:00", "14:00", "15:00"],
+        "Wed": ["11:00", "13:00", "14:00"],
+        "Fri": ["09:00", "10:00", "11:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC012",
+      "name": "Dr. Kevin Park",
+      "photo": "kevin_park.jpg",
+      "specialty": "Dermatologist",
+      "hospital": "Cancer Treatment Center",
+      "location": "Portland, OR",
+      "experience": 19,
+      "rating": 4.9,
+      "appointmentCharge": 230,
+      "education": [
+        "MD - Oregon Health & Science University",
+        "Oncology Fellowship - MD Anderson"
+      ],
+      "about": "Dr. Park is renowned for his work in precision oncology and immunotherapy.",
+      "availableSlots": {
+        "Tue": ["10:00", "11:00", "14:00", "15:00"],
+        "Thu": ["09:00", "10:00", "14:00", "16:00"],
+        "Fri": ["11:00", "13:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC013",
+      "name": "Dr. Sofia Martinez",
+      "photo": "sofia_martinez.jpg",
+      "specialty": "Pediatrician",
+      "hospital": "Arthritis & Autoimmune Center",
+      "location": "Austin, TX",
+      "experience": 12,
+      "rating": 4.7,
+      "appointmentCharge": 175,
+      "education": [
+        "MD - University of Texas",
+        "Rheumatology Fellowship - Johns Hopkins"
+      ],
+      "about": "Dr. Martinez focuses on autoimmune disorders and innovative arthritis treatments.",
+      "availableSlots": {
+        "Mon": ["09:00", "10:00", "11:00", "14:00"],
+        "Wed": ["10:00", "11:00", "14:00", "15:00"],
+        "Thu": ["11:00", "13:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC014",
+      "name": "Dr. William Chang",
+      "photo": "william_chang.jpg",
+      "specialty": "Orthopedic",
+      "hospital": "Urology Specialists",
+      "location": "San Diego, CA",
+      "experience": 15,
+      "rating": 4.8,
+      "appointmentCharge": 185,
+      "education": ["MD - UCSD", "Urology Residency - Duke University"],
+      "about": "Dr. Chang specializes in minimally invasive urologic surgery and men's health.",
+      "availableSlots": {
+        "Tue": ["09:00", "10:00", "14:00", "15:00"],
+        "Thu": ["11:00", "13:00", "14:00"],
+        "Sat": ["09:00", "10:00", "11:00"]
+      }
+    },
+    {
+      "id": "DOC015",
+      "name": "Dr. Jennifer Brooks",
+      "photo": "jennifer_brooks.jpg",
+      "specialty": "Family Medicine",
+      "hospital": "Allergy & Asthma Center",
+      "location": "Phoenix, AZ",
+      "experience": 10,
+      "rating": 4.7,
+      "appointmentCharge": 160,
+      "education": [
+        "MD - University of Arizona",
+        "Allergy & Immunology Fellowship - Northwestern"
+      ],
+      "about": "Dr. Brooks specializes in food allergies and immunodeficiency disorders.",
+      "availableSlots": {
+        "Mon": ["10:00", "11:00", "14:00", "15:00"],
+        "Wed": ["09:00", "10:00", "14:00", "16:00"],
+        "Fri": ["11:00", "13:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC016",
+      "name": "Dr. Gregory Nelson",
+      "photo": "gregory_nelson.jpg",
+      "specialty": "Ophthalmology",
+      "hospital": "Aesthetic Surgery Institute",
+      "location": "Dallas, TX",
+      "experience": 18,
+      "rating": 4.9,
+      "appointmentCharge": 300,
+      "education": [
+        "MD - UT Southwestern",
+        "Plastic Surgery Fellowship - Stanford"
+      ],
+      "about": "Dr. Nelson is known for his expertise in reconstructive and cosmetic surgery.",
+      "availableSlots": {
+        "Tue": ["09:00", "10:00", "11:00", "14:00"],
+        "Thu": ["10:00", "11:00", "14:00", "15:00"],
+        "Fri": ["09:00", "10:00", "14:00"]
+      }
+    },
+    {
+      "id": "DOC017",
+      "name": "Dr. Rebecca Cohen",
+      "photo": "rebecca_cohen.jpg",
+      "specialty": "General Physician",
+      "hospital": "Kidney Care Center",
+      "location": "Minneapolis, MN",
+      "experience": 14,
+      "rating": 4.8,
+      "appointmentCharge": 180,
+      "education": [
+        "MD - University of Minnesota",
+        "Nephrology Fellowship - Vanderbilt"
+      ],
+      "about": "Dr. Cohen specializes in chronic kidney disease and transplant medicine.",
+      "availableSlots": {
+        "Mon": ["09:00", "10:00", "14:00"],
+        "Thu": ["10:00", "11:00", "14:00", "15:00"],
+        "Fri": ["09:00", "10:00", "14:00"]
+      }
+    }
+  ]
+}
