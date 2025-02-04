@@ -1,0 +1,242 @@
+{
+    "healthTips": [
+      {
+        "id": "emergency",
+        "title": "Emergency First Aid",
+        "icon": "AlertCircle",
+        "color": "red",
+        "tips": [
+          {
+            "title": "CPR Steps",
+            "content": [
+              "Check the scene for safety",
+              "Check responsiveness",
+              "Call emergency services (911)",
+              "Check breathing",
+              "Begin chest compressions",
+              "30 compressions to 2 breaths ratio",
+              "Continue until help arrives"
+            ],
+            "urgency": "Critical",
+            "callToAction": "Call Emergency: 911"
+          },
+          {
+            "title": "Choking Response",
+            "content": [
+              "Identify signs of choking",
+              "Stand behind the person",
+              "Wrap your arms around their waist",
+              "Make a fist above their navel",
+              "Give quick, upward thrusts",
+              "Repeat until object is expelled"
+            ],
+            "urgency": "Critical",
+            "callToAction": "Call Emergency: 911"
+          },
+          {
+            "title": "Severe Bleeding",
+            "content": [
+              "Apply direct pressure",
+              "Use clean cloth or gauze",
+              "Elevate the injured area",
+              "Apply pressure bandage",
+              "Keep person warm and calm",
+              "Monitor vital signs"
+            ],
+            "urgency": "Critical",
+            "callToAction": "Seek Immediate Medical Care"
+          }
+        ]
+      },
+      {
+        "id": "nutrition",
+        "title": "Healthy Eating",
+        "icon": "Utensils",
+        "color": "green",
+        "tips": [
+          {
+            "title": "Balanced Diet Essentials",
+            "content": [
+              "Include a variety of fruits and vegetables",
+              "Choose whole grains over refined grains",
+              "Incorporate lean proteins",
+              "Limit saturated and trans fats",
+              "Reduce added sugars",
+              "Stay hydrated with water"
+            ],
+            "urgency": "Important",
+            "callToAction": "Consult a Nutritionist for Personalized Advice"
+          },
+          {
+            "title": "Portion Control",
+            "content": [
+              "Use smaller plates",
+              "Fill half your plate with vegetables",
+              "Measure servings of high-calorie foods",
+              "Eat slowly and mindfully",
+              "Listen to your body's hunger cues",
+              "Avoid second helpings"
+            ],
+            "urgency": "Moderate",
+            "callToAction": "Track Your Meals for Better Awareness"
+          },
+          {
+            "title": "Healthy Snacking",
+            "content": [
+              "Choose nutrient-dense snacks",
+              "Prepare snacks in advance",
+              "Include protein and fiber",
+              "Avoid processed snacks",
+              "Control snack portions",
+              "Snack only when truly hungry"
+            ],
+            "urgency": "Low",
+            "callToAction": "Try Our Healthy Snack Recipes"
+          }
+        ]
+      },
+      {
+        "id": "fitness",
+        "title": "Physical Activity",
+        "icon": "Activity",
+        "color": "blue",
+        "tips": [
+          {
+            "title": "Cardio Exercises",
+            "content": [
+              "Aim for 150 minutes of moderate activity per week",
+              "Try brisk walking, jogging, or cycling",
+              "Include swimming for low-impact cardio",
+              "Use the stairs instead of elevators",
+              "Dance to your favorite music",
+              "Join group fitness classes for motivation"
+            ],
+            "urgency": "Important",
+            "callToAction": "Start a 30-Day Cardio Challenge"
+          },
+          {
+            "title": "Strength Training",
+            "content": [
+              "Incorporate weights or resistance bands",
+              "Focus on major muscle groups",
+              "Start with bodyweight exercises",
+              "Gradually increase weight and reps",
+              "Allow rest days between sessions",
+              "Maintain proper form to prevent injury"
+            ],
+            "urgency": "Moderate",
+            "callToAction": "Book a Session with a Personal Trainer"
+          },
+          {
+            "title": "Flexibility and Balance",
+            "content": [
+              "Practice yoga or Pilates",
+              "Stretch major muscle groups daily",
+              "Try tai chi for improved balance",
+              "Incorporate balance exercises in your routine",
+              "Use a foam roller for self-massage",
+              "Hold stretches for 15-30 seconds"
+            ],
+            "urgency": "Low",
+            "callToAction": "Join Our Online Yoga Classes"
+          }
+        ]
+      },
+      {
+        "id": "mentalhealth",
+        "title": "Mental Wellness",
+        "icon": "Brain",
+        "color": "purple",
+        "tips": [
+          {
+            "title": "Stress Management",
+            "content": [
+              "Practice deep breathing exercises",
+              "Try progressive muscle relaxation",
+              "Engage in regular physical activity",
+              "Maintain a consistent sleep schedule",
+              "Set realistic goals and priorities",
+              "Connect with supportive friends and family"
+            ],
+            "urgency": "Important",
+            "callToAction": "Download Our Stress Relief App"
+          },
+          {
+            "title": "Mindfulness Meditation",
+            "content": [
+              "Start with short 5-minute sessions",
+              "Focus on your breath",
+              "Observe thoughts without judgment",
+              "Use guided meditation apps or videos",
+              "Practice mindfulness in daily activities",
+              "Gradually increase session duration"
+            ],
+            "urgency": "Moderate",
+            "callToAction": "Join a Mindfulness Workshop"
+          },
+          {
+            "title": "Positive Self-Talk",
+            "content": [
+              "Identify negative thought patterns",
+              "Challenge and reframe negative thoughts",
+              "Practice daily affirmations",
+              "Keep a gratitude journal",
+              "Celebrate small accomplishments",
+              "Surround yourself with positive influences"
+            ],
+            "urgency": "Low",
+            "callToAction": "Schedule a Session with a Therapist"
+          }
+        ]
+      },
+      {
+        "id": "sleep",
+        "title": "Sleep Hygiene",
+        "icon": "Moon",
+        "color": "indigo",
+        "tips": [
+          {
+            "title": "Bedtime Routine",
+            "content": [
+              "Stick to a consistent sleep schedule",
+              "Create a relaxing pre-sleep ritual",
+              "Avoid screens 1 hour before bed",
+              "Keep your bedroom cool and dark",
+              "Use comfortable bedding",
+              "Practice relaxation techniques"
+            ],
+            "urgency": "Important",
+            "callToAction": "Track Your Sleep Patterns"
+          },
+          {
+            "title": "Daytime Habits for Better Sleep",
+            "content": [
+              "Limit caffeine intake after 2 PM",
+              "Exercise regularly, but not close to bedtime",
+              "Avoid large meals before sleep",
+              "Expose yourself to natural daylight",
+              "Manage stress through relaxation techniques",
+              "Avoid long daytime naps"
+            ],
+            "urgency": "Moderate",
+            "callToAction": "Consult a Sleep Specialist"
+          },
+          {
+            "title": "Dealing with Insomnia",
+            "content": [
+              "Don't force sleep, get up if you can't sleep",
+              "Try sleep restriction therapy",
+              "Practice cognitive behavioral techniques",
+              "Use white noise or calming sounds",
+              "Consider natural sleep aids like melatonin",
+              "Maintain a sleep diary"
+            ],
+            "urgency": "Important",
+            "callToAction": "Participate in a Sleep Study"
+          }
+        ]
+      }
+    ]
+  }
+  
+  

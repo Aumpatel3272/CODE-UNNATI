@@ -1,0 +1,111 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "title": "Understanding Heart Health",
+        "thumbnail": "https://sjc.microlink.io/BUfUejlHoAx_qReD14UHVKLMlsR2EFr8p3Lbn_Wc-BK4Jiitb_9ynd9vjToU4zbVt7dpoNrprnBIN0iLBbkVZw.jpeg",
+        "duration": "10:25",
+        "author": "Dr. Sarah Johnson"
+      },
+      {
+        "id": 2,
+        "title": "Stress Management Techniques",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "15:30",
+        "author": "Dr. Michael Chen"
+      },
+      {
+        "id": 3,
+        "title": "Nutrition Essentials: Balanced Diet",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "12:45",
+        "author": "Dr. Emily Rodriguez"
+      },
+      {
+        "id": 4,
+        "title": "Sleep Better: Tips for Quality Rest",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "08:15",
+        "author": "Dr. James Wilson"
+      },
+      {
+        "id": 5,
+        "title": "Exercise Fundamentals for Beginners",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "20:00",
+        "author": "Dr. Lisa Thompson"
+      },
+      {
+        "id": 6,
+        "title": "Mental Health: Breaking the Stigma",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "18:30",
+        "author": "Dr. David Kim"
+      },
+      {
+        "id": 7,
+        "title": "Diabetes Prevention and Management",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "14:20",
+        "author": "Dr. Rachel Green"
+      },
+      {
+        "id": 8,
+        "title": "Understanding Allergies and Immunity",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "11:45",
+        "author": "Dr. Thomas Brown"
+      },
+      {
+        "id": 9,
+        "title": "Back Pain: Prevention and Relief",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "16:10",
+        "author": "Dr. Anna Martinez"
+      },
+      {
+        "id": 10,
+        "title": "Mindfulness and Meditation Guide",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "13:55",
+        "author": "Dr. Sophie Lee"
+      },
+      {
+        "id": 11,
+        "title": "Women's Health Essentials",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "19:15",
+        "author": "Dr. Maria Garcia"
+      },
+      {
+        "id": 12,
+        "title": "Dental Care Best Practices",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "09:40",
+        "author": "Dr. Robert Taylor"
+      },
+      {
+        "id": 13,
+        "title": "Understanding Vaccines",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "17:25",
+        "author": "Dr. Jennifer White"
+      },
+      {
+        "id": 14,
+        "title": "Eye Health in Digital Age",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "12:30",
+        "author": "Dr. William Park"
+      },
+      {
+        "id": 15,
+        "title": "Skin Care and Sun Protection",
+        "thumbnail": "/placeholder.svg?height=800&width=800",
+        "duration": "15:50",
+        "author": "Dr. Emma Davis"
+      }
+    ]
+  }
+  
+  
